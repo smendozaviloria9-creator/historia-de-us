@@ -1,4 +1,4 @@
-ef guardar_csv(inventario, ruta, incluir_header=True):
+def guardar_csv(inventario, ruta, incluir_header=True):
     """Guarda el inventario en un archivo CSV."""
     if not inventario:
         print("Error: No se puede guardar un inventario vacío.")
