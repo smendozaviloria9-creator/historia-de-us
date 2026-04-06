@@ -1,7 +1,4 @@
-import csv
-import os
-
-def guardar_csv(inventario, ruta, incluir_header=True):
+ef guardar_csv(inventario, ruta, incluir_header=True):
     """Guarda el inventario en un archivo CSV."""
     if not inventario:
         print("Error: No se puede guardar un inventario vacío.")
@@ -77,8 +74,3 @@ def cargar_csv(ruta):
         print(f"Filas inválidas omitidas: {filas_invalidas}")
     print(f"Acción: {'Sobrescribir' if accion == 'S' else 'Fusionar'}")
     return productos_cargados
-        return inventario
-
-    except Exception as e:
-        print(f"Error: {e}")
-        return []
