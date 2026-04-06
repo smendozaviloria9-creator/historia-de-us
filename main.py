@@ -141,10 +141,8 @@ def main():
         except Exception as e:
             print(f"Error inesperado: {e}")
 
-if _name_ == "_main_":
-    main()   
-
-
+if __name__ == "__main__":
+    main()
 # 5. Documentación del código:
 # Este programa permite gestionar el ingreso de mercancía básica, asegurando que los
 # cálculos financieros sean precisos mediante la validación de tipos de datos.
