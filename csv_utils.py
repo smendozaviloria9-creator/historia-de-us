@@ -1,3 +1,6 @@
+import csv
+import os 
+
 def guardar_csv(inventario, ruta, incluir_header=True):
     """Guarda el inventario en un archivo CSV."""
     if not inventario:
